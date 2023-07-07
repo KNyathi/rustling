@@ -6,6 +6,8 @@
 
 
 fn main() {
-    let numbers = (1, 2, 3);
+    let numbers: (i32, i32, i32) = (1, 2, 3);
     println!("The second number is {}", numbers.1);
 }
+
+
